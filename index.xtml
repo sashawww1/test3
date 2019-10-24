@@ -1,6 +1,29 @@
 <HTML>
+  <script>
+    var data1 = 
+    {
+      appid: 'anb_forkplayer',
+      name: 'ForkPlayer',
+      url: 'http://operatv.obovse.ru/2.5/',
+      text: 'ForkPlayer'
+    };
+    var img1 = 'http://smart.obovse.ru/img/fork_logo.png';
 
+  </script>
+  <a href="javascript:void(0);" onclick="try{Hisense_installApp(data1.appid, data1.name, img1, img1, img1, data1.url, function(){alert('INSTALLED!'); });}catch(e){alert('Ссылку нажимать в браузере ТВ Hisense! \n'+e.toString());}">ForkPlayer</a>
   <br>
   <br>
-  
+    <script>
+    var data2 = 
+    {
+      appid: 'anb_ottplayer',
+      name: 'OttPlayer2',
+      url: 'http://widget.ottplayer.es/',
+      text: 'OttPlayer2'
+    };
+    var img2 = 'https://i.ibb.co/wd6WNHV/2.png';
+
+  </script>
+  <a href="javascript:void(0);" onclick="try{Hisense_installApp(data2.appid, data2.name, img2, img2, img2, data2.url, function(){alert('INSTALLED!'); });}catch(e){alert('Ссылку нажимать в браузере ТВ Hisense! \n'+e.toString());}">OttPlayer2</a>
+   
 </HTML>
